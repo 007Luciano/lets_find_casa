@@ -1,0 +1,53 @@
+.property-details {
+    padding: 20px;
+}
+
+.back-button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #bbb;
+}
+
+.details-container {
+    display: flex;
+    gap: 20px;
+}
+
+.property-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.details-info {
+    flex: 1;
+}
+
+.details-info h2 {
+    margin: 0;
+}
+
+.details-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.book-now-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.book-now-button:hover {
+    background-color: #0056b3;
+}
